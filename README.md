@@ -5,13 +5,22 @@
 
 ## 다운로드 및 설치
 
-1. 아래 배포 저장소로 이동합니다.  
-   - https://github.com/timothy97/NoljaAccountBook2_Release
-2. **Releases** 페이지를 엽니다.  
-   - https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest
-3. **Assets**에서 설치 파일(`2026_._v1.0.5.exe`)을 다운로드합니다.
-4. 다운로드한 `.exe` 파일을 실행해 안내에 따라 설치합니다.
-5. 설치가 끝나면 바탕화면 또는 시작 메뉴에서 **놀자장부 2026**을 실행합니다.
+1. **.NET Core 10 설치**
+   - 이 프로그램은 .NET Core 10이 필요합니다. 아래 단계를 따라 설치하세요.
+     1. [Microsoft .NET 다운로드 페이지](https://dotnet.microsoft.com/download/dotnet/10.0)로 이동합니다.
+     2. **.NET Runtime** 또는 **.NET SDK** 중 하나를 선택하여 다운로드합니다.
+        - 일반 사용자는 **.NET Runtime**을 선택하면 됩니다.
+        - [직접 다운로드](https://dotnet.microsoft.com/ko-kr/download/dotnet/thank-you/runtime-desktop-10.0.3-windows-x64-installer) (여기 클릭)
+     3. 다운로드한 설치 파일을 실행하고 안내에 따라 설치를 완료합니다.
+
+2. **놀자장부 2026 설치**
+   1. 아래 배포 저장소로 이동합니다.  
+      - https://github.com/timothy97/NoljaAccountBook2_Release
+   2. **Releases** 페이지를 엽니다.  
+      - https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest
+   3. **Assets**에서 설치 파일(`NoljaAccountBook2026_Installer_v1.x.x.exe`)을 다운로드합니다.
+   4. 다운로드한 `.exe` 파일을 실행해 안내에 따라 설치합니다.
+   5. 설치가 끝나면 바탕화면 또는 시작 메뉴에서 **놀자장부 2026**을 실행합니다.
 
 ## 주요 기능
 
