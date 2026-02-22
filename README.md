@@ -14,13 +14,11 @@
      3. 다운로드한 설치 파일을 실행하고 안내에 따라 설치를 완료합니다.
 
 2. **놀자장부 2026 설치**
-   1. 아래 배포 저장소로 이동합니다.  
-      - https://github.com/timothy97/NoljaAccountBook2_Release
-   2. **Releases** 페이지를 엽니다.  
-      - https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest
-   3. **Assets**에서 설치 파일(`NoljaAccountBook2026_Installer_v1.x.x.exe`)을 다운로드합니다.
-   4. 다운로드한 `.exe` 파일을 실행해 안내에 따라 설치합니다.
-   5. 설치가 끝나면 바탕화면 또는 시작 메뉴에서 **놀자장부 2026**을 실행합니다.
+   1. 최신 프로그램 저장소로 이동합니다.  
+      - [최신 프로그램 다운로드](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest) (클릭)
+   2. **Assets**에서 설치 파일(`NoljaAccountBook2026_Installer_v1.x.x.exe`)을 다운로드합니다.
+   3. 다운로드한 `.exe` 파일을 실행해 안내에 따라 설치합니다.
+   4. 설치가 끝나면 바탕화면 또는 시작 메뉴에서 **놀자장부 2026**을 실행합니다.
 
 ## 주요 기능
 
