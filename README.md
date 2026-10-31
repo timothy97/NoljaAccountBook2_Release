@@ -2,6 +2,8 @@
 
 # 놀자장부 2026 · v1.5.0
 
+**등록 성도 150명 이하 무료 · 151명 이상 별도 상용 사용권 필요.** [자체 소프트웨어 사용권](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE) · 상용 문의: gps@daum.net.
+
 교회의 **헌금·지출 입력부터 집계, 보고서, 기부금 영수증, 백업까지** 한 곳에서 관리하는 Windows 장부 프로그램입니다. 여러 해의 자료를 하나의 운영 장부에 계속 보관할 수 있습니다.
 
 **[설치 파일 다운로드](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.0)** · **[사용자 매뉴얼](https://github.com/timothy97/NoljaAccountBook2_Release/wiki)** · **[최신 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest)**
@@ -14,7 +16,7 @@
 
 1. Windows **x64** 환경에 **[.NET 10 Desktop Runtime의 Windows x64](https://dotnet.microsoft.com/ko-kr/download/dotnet/10.0)**를 설치합니다. 다운로드 페이지의 **Desktop Runtime**을 선택하세요. 일반 .NET Runtime만 설치한 경우 WPF 앱을 실행할 수 없습니다.
 2. [v1.5.0 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.0)의 Assets에서 **`NoljaAccountBook2026_Installer.v1.5.0.exe`**를 내려받습니다.
-3. 설치 파일을 실행하고 현재 사용자/모든 사용자 및 설치 위치를 선택합니다. Windows에서 관리자 승인을 요청할 수 있습니다.
+3. 설치 파일을 실행하고 사용권 약관을 읽어 동의한 뒤, 현재 사용자/모든 사용자 및 설치 위치를 선택합니다. Windows에서 관리자 승인을 요청할 수 있습니다.
 4. 시작 메뉴나 바탕화면의 **놀자장부 2026**을 실행합니다.
 5. 처음 사용하는 경우 **새 장부 만들기**, 기존 운영 장부가 있는 경우 **기존 장부 등록**으로 시작합니다.
 
@@ -100,4 +102,8 @@
 
 설치 파일의 SHA-256은 릴리스에 함께 제공하는 `SHA256SUMS.txt`와 비교할 수 있습니다.
 
-라이선스는 [LICENSE](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE)를 확인하세요. 글꼴·라이브러리 고지는 설치 폴더의 해당 라이선스 파일을 참고하세요.
+**등록 성도 150명 이하 무료 · 151명 이상 별도 상용 사용권 필요.** 동일 기관의 운영 장부에 등록된 성도를 중복 없이 합산하며, 담당자 수나 PDF 출력 횟수를 기준으로 하지 않습니다. 현재 버전에는 인원 자동 제한이 없습니다.
+
+v1.5.0 라이선스 개정 배포본부터 자체 소프트웨어 사용권을 적용합니다. 오픈소스 라이선스가 아니며, 상용 사용권은 **gps@daum.net**으로 문의하세요. 전문은 [LICENSE](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE)를 확인하세요. 프로그램의 **도움말 → 프로그램 정보**에서도 약관과 제3자 고지를 읽을 수 있습니다. 글꼴·라이브러리의 별도 조건은 설치 폴더의 `THIRD-PARTY-NOTICES.txt`와 `licenses` 폴더에 보존됩니다.
+
+![프로그램 정보와 소프트웨어 사용권](assets/v1.5.0/15-license.png)
