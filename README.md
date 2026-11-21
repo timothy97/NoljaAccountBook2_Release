@@ -1,12 +1,12 @@
 <p align="center"><img src="assets/v1.5.1/app-icon.svg" width="96" alt="놀자장부 아이콘"></p>
 
-# 놀자장부 2026 · v1.5.1
+# 놀자장부 2026 · v1.5.2
 
 **등록 인원과 후원 여부에 관계없이 무료로 사용할 수 있습니다.** 자발적인 후원은 기능 개선과 유지보수에 사용됩니다. [자체 소프트웨어 사용권](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE)을 확인하세요.
 
 교회의 **헌금·지출 입력부터 집계, 보고서, 기부금 영수증, 백업까지** 한 곳에서 관리하는 Windows 장부 프로그램입니다. 여러 해의 자료를 하나의 운영 장부에 계속 보관할 수 있습니다.
 
-**[설치 파일 다운로드](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.1)** · **[사용자 매뉴얼](https://github.com/timothy97/NoljaAccountBook2_Release/wiki)** · **[최신 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest)**
+**[설치 파일 다운로드](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)** · **[사용자 매뉴얼](https://github.com/timothy97/NoljaAccountBook2_Release/wiki)** · **[최신 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest)**
 
 ![헌금 입력·조회 화면](assets/v1.5.1/02-income.png)
 
@@ -15,7 +15,7 @@
 ## 설치하고 시작하기
 
 1. Windows **x64** 환경에 **[.NET 10 Desktop Runtime의 Windows x64](https://dotnet.microsoft.com/ko-kr/download/dotnet/10.0)**를 설치합니다. 다운로드 페이지의 **Desktop Runtime**을 선택하세요. 일반 .NET Runtime만 설치한 경우 WPF 앱을 실행할 수 없습니다.
-2. [v1.5.1 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.1)의 Assets에서 **`NoljaAccountBook2026_Installer.v1.5.1.exe`**를 내려받습니다.
+2. [v1.5.2 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)의 Assets에서 **`NoljaAccountBook2026_Installer.v1.5.2.exe`**를 내려받습니다.
 3. 설치 파일을 실행하고 사용권 약관을 읽어 동의한 뒤, 현재 사용자/모든 사용자 및 설치 위치를 선택합니다. Windows에서 관리자 승인을 요청할 수 있습니다.
 4. 시작 메뉴나 바탕화면의 **놀자장부 2026**을 실행합니다.
 5. 처음 사용하는 경우 **새 장부 만들기**, 기존 운영 장부가 있는 경우 **기존 장부 등록**으로 시작합니다.
@@ -90,13 +90,15 @@
 - [명단·헌금 종류·지출 항목·기관 정보](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/06-Members-and-Categories)
 - [테마·암호·단축키·문제 해결](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/07-Settings-and-Troubleshooting)
 
-## v1.5.1에서 달라진 점
+## v1.5.2에서 달라진 점
 
-- 영구 운영 장부, 전체 백업과 기간 교환의 역할을 구분했습니다.
-- 헌금·지출의 명시적인 입력/수정과 페이지 조회·전체 합계를 제공합니다.
-- 보고서·영수증 화면과 미리보기를 정리하고, 주일 보고서 이름 숨김을 기본으로 적용했습니다.
-- 지출 항목 트리의 전체 펼치기/접기, 새 프로그램·설치 아이콘과 중앙형 스플래시를 적용했습니다.
-- 밝은·어두운·Excel 테마를 지원합니다.
+- 사이드바 접기 버튼 옆의 **뒤로·앞으로**로 최근 업무 화면을 오갈 수 있습니다. 지출 보고서와 근거 거래를 오갈 때는 기간과 항목을 복원합니다.
+- 헌금 새 입력에서 금액 칸으로 이동하면 전체 금액이 선택됩니다. **저장 후 계속**은 `Ctrl+Enter`로 실행할 수 있습니다.
+- 금액 입력 검증을 보강하고, Excel 내보내기 전에 기간을 선택할 수 있게 했습니다.
+- 마지막 완료된 백업 시각과 현재 장부 상태에 따라 자동 백업 시점을 조정했습니다.
+- 시작 화면의 글꼴 렌더링과 본문·사이드바 글자 크기를 정리했습니다.
+
+[v1.5.2 릴리스 변경 사항](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)
 
 ## 다운로드 확인과 라이선스
 

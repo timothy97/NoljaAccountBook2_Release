@@ -1,1 +1,1 @@
-de89ce5252dc30833a8fff89124342156c5a8fe6bae4c205ad6a45feb6ce4496  NoljaAccountBook2026_Installer.v1.5.1.exe
+eb8af4a030110122a28a070e15e20705ffa331a28b383556e711320d945f6192  NoljaAccountBook2026_Installer.v1.5.2.exe
