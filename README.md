@@ -1,122 +1,70 @@
-<p align="center"><img src="assets/v1.5.1/app-icon.svg" width="96" alt="놀자장부 아이콘"></p>
+<p align="center"><img src="assets/v1.6.0/app-icon.svg" width="96" alt="놀자장부 아이콘"></p>
 
-# 놀자장부 2026 · v1.5.2
+# 놀자장부 2026 · v1.6.0
 
-**등록 인원과 후원 여부에 관계없이 무료로 사용할 수 있습니다.** 자발적인 후원은 기능 개선과 유지보수에 사용됩니다. [자체 소프트웨어 사용권](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE)을 확인하세요.
+교회의 헌금·지출부터 일반 수입, 현금·통장 잔액, 보고서와 기부금 영수증까지 관리하는 Windows 장부 프로그램입니다. **등록 인원과 후원 여부에 관계없이 무료**입니다. [소프트웨어 사용권 계약](LICENSE)
 
-교회의 **헌금·지출 입력부터 집계, 보고서, 기부금 영수증, 백업까지** 한 곳에서 관리하는 Windows 장부 프로그램입니다. 여러 해의 자료를 하나의 운영 장부에 계속 보관할 수 있습니다.
+**[v1.6.0 설치 파일](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.6.0)** · **[사용자 매뉴얼](https://github.com/timothy97/NoljaAccountBook2_Release/wiki)** · **[최신 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest)**
 
-**[설치 파일 다운로드](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)** · **[사용자 매뉴얼](https://github.com/timothy97/NoljaAccountBook2_Release/wiki)** · **[최신 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/latest)**
+![헌금 입력·조회](assets/v1.6.0/02-income.png)
 
-![헌금 입력·조회 화면](assets/v1.5.1/02-income.png)
-
-> 화면은 v1.5.1의 실제 프로그램 화면입니다. 설명을 위한 예제 장부이며 인물·기관·거래·발행 이력은 모두 가상입니다.
+화면은 v1.6.0에서 캡처했습니다. 인물·기관·거래·발행 이력은 설명용 가상 자료입니다.
 
 ## 설치하고 시작하기
 
-1. Windows **x64** 환경에 **[.NET 10 Desktop Runtime의 Windows x64](https://dotnet.microsoft.com/ko-kr/download/dotnet/10.0)**를 설치합니다. 다운로드 페이지의 **Desktop Runtime**을 선택하세요. 일반 .NET Runtime만 설치한 경우 WPF 앱을 실행할 수 없습니다.
-2. [v1.5.2 릴리스](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)의 Assets에서 **`NoljaAccountBook2026_Installer.v1.5.2.exe`**를 내려받습니다.
-3. 설치 파일을 실행하고 사용권 약관을 읽어 동의한 뒤, 현재 사용자/모든 사용자 및 설치 위치를 선택합니다. Windows에서 관리자 승인을 요청할 수 있습니다.
-4. 시작 메뉴나 바탕화면의 **놀자장부 2026**을 실행합니다.
-5. 처음 사용하는 경우 **새 장부 만들기**, 기존 운영 장부가 있는 경우 **기존 장부 등록**으로 시작합니다.
+1. Windows x64에 [.NET 10 Desktop Runtime x64](https://dotnet.microsoft.com/ko-kr/download/dotnet/10.0)를 설치합니다. 다운로드 페이지에서 **Desktop Runtime**을 선택합니다.
+2. 릴리스의 **Assets**에서 `NoljaAccountBook2026_Installer.v1.6.0.exe`를 내려받습니다. 업데이트는 장부를 백업하고 프로그램을 닫은 뒤 진행합니다.
+3. 설치 파일을 실행해 사용권과 설치 위치를 확인합니다. 설치 후 시작 메뉴에서 **놀자장부 2026**을 실행합니다.
+4. 처음 사용한다면 **새 장부 만들기**, 기존 운영 장부가 있다면 **기존 장부 등록**을 선택합니다. 이전 버전의 전체 `.nabx`는 새 장부 만들기에서 변환합니다.
 
-이 배포본은 **ReadyToRun · Release · win-x64** 빌드입니다. .NET Desktop Runtime은 설치 파일에 포함되어 있지 않습니다.
+설치 파일은 Release / win-x64 / ReadyToRun 배포본입니다. 설치 파일의 SHA-256은 릴리스의 `SHA256SUMS.txt`에서 확인할 수 있습니다.
 
-## 무엇을 할 수 있나요?
+## 거래와 자금 현황
 
-| 업무 | 주요 기능 |
-|---|---|
-| 헌금 입력·조회 | 성도 후보 선택, 명시적인 저장/수정, 기간·검색·정렬, 조건 전체 합계, 페이지 이동 |
-| 지출 입력·조회 | 관→항→목 선택, 지출처·적요 입력, 기간별 조회와 합계 |
-| 헌금 집계 | 주간·월간·분기별 집계, 헌금 종류별 금액과 전체 합계 |
-| 보고서 | 주일 헌금 보고서, 지출 보고서, 화면 검토 후 PDF 저장 |
-| 기부금 영수증 | 연도·신청인 선택, 가족 합산, 발행번호, PDF 발행과 이력 조회 |
-| 기초정보 | 성도 명단, 헌금 종류, 지출 항목의 관·항·목 트리, 기관·장부 정보와 도장 |
-| 장부 관리 | 여러 장부 등록·선택·기본 장부 지정, 사본, 일부 자료로 새 장부 만들기 |
-| 자료 보호·교환 | 운영 장부 암호, 전체/자동 백업, 전체 복원, 기간 자료 교환, 엑셀 내보내기 |
-| 화면 | 청록색의 밝은·어두운·엑셀형 테마, 접는 메뉴, SVG 아이콘, 즐겨찾기 편집·순서 저장, 장부 색상 |
+**새로 입력**에서 거래를 작성해 저장합니다. 기존 거래는 목록을 더블클릭하거나 **선택 내역 수정**으로 엽니다. 거래일 기준 기간·검색 조건의 전체 합계를 확인할 수 있습니다.
 
-## 주요 화면
+**설정 → 사용할 재정 기능…**에서 필요에 따라 장부별로 기능을 켭니다.
 
-### 헌금과 지출: 조회와 입력을 구분해서 사용합니다
+- **일반 수입과 지출 반환**을 켜면 이자·참가비 등 헌금 외 수입을 기록하고, 돌려받은 금액을 원지출에 연결할 수 있습니다.
+- **자금 현황**을 켜면 현금함·통장의 시작 기준일과 잔액을 등록하고 거래 위치를 지정할 수 있습니다. 이체 내역은 기본 최근 1개월이며, 다른 기간으로도 조회할 수 있습니다. 미지정 거래는 목록에서 원래 편집 화면으로 이동해 자금 위치를 지정합니다.
 
-목록에서 내역을 선택한 뒤 **선택 내역 수정**으로 편집합니다. 새 거래는 **새로 입력**에서 시작하고 **저장** 또는 **저장 후 계속 입력**으로 확정합니다. 목록 선택만으로 거래가 저장되지는 않습니다.
+![일반 수입 목록과 수정 영역](assets/v1.6.0/20-general-income-edit.png)
 
-![헌금 입력 화면](assets/v1.5.1/02-income-entry.png)
+![자금 현황과 이체 조회](assets/v1.6.0/21-fund-overview.png)
 
-지출은 **관→항→목**의 마지막 항목을 선택해 기록합니다. 목록 아래 **조건 전체 합계**는 현재 검색·기간 조건에 맞는 전체 내역의 합계입니다.
+## 집계·보고서·기부금 영수증
 
-![지출 입력·조회](assets/v1.5.1/03-expenses.png)
+회계년도별 헌금 집계와 주일 헌금 보고서, 기간·항목별 지출 보고서를 확인하고 PDF로 저장할 수 있습니다. 기부금 영수증은 연도와 신청인, 가족 합산 금액을 확인한 뒤 발행하며 발행 이력을 남깁니다.
 
-### 집계·보고서: 조건을 확인하고 PDF로 남깁니다
+![지출 보고서](assets/v1.6.0/06-expense-report.png)
 
-헌금 집계는 데이터가 있는 **회계년도**를 선택해 주간·월간·분기를 비교할 수 있습니다. 보고서는 화면에서 기준일·기간·범위를 확인하고 생성한 뒤 **PDF 저장**을 선택합니다.
+![기부금 영수증 미리보기](assets/v1.6.0/07-donation-receipt.png)
 
-![헌금 집계](assets/v1.5.1/04-statistics.png)
+## 장부 관리와 자료 보호
 
-지출 보고서는 기간 전 누적 수지, 기간 수입·지출, 기간 수지와 계산상 기말잔액(PDF에서는 **기말 잔액**)을 구분합니다. **계산상 잔액은 실제 통장 잔액과 대사한 값이 아닙니다.**
+여러 장부를 등록하고 전환할 수 있습니다. 명단과 헌금 종류, 관→항→목 분류, 기관 정보와 직인은 장부별로 관리합니다.
 
-![지출 보고서](assets/v1.5.1/06-expense-report.png)
+| 파일 | 용도 |
+| --- | --- |
+| `.nabdb` | 평소 거래를 입력하고 조회하는 운영 장부 |
+| `.nabbackup` | 장부 전체 백업과 전체 복원 |
+| `.nabx` | 지정한 기간의 거래를 다른 장부에 누적하는 교환 파일 |
 
-### 기부금 영수증: 금액을 검토하고 발행합니다
+장부 전체 복원은 대상 장부를 백업 시점으로 교체합니다. 같은 기간 자료를 반복해서 가져오면 거래가 다시 추가될 수 있습니다. 운영 장부 암호와 자동 백업은 **설정**에서 관리합니다.
 
-연도와 신청인을 선택하고 필요하면 가족 합산을 적용합니다. **영수증 발행·PDF 저장**을 실행해야 발행 이력이 기록됩니다. 화면을 여는 것만으로 발행되지는 않습니다.
+## 화면 테마와 작업 동선
 
-![기부금 영수증 미리보기](assets/v1.5.1/07-donation-receipt.png)
+**설정 → 화면 테마**에서 밝기 모드와 테마 종류를 따로 선택합니다. 기본·엑셀·잉크드·슬레이트·라피스 벨벳·파이어사이드는 모두 밝은 버전과 어두운 버전을 제공합니다. 시스템 모드는 Windows 앱 모드를 따릅니다. `.theme.json` 파일로 새 테마를 추가할 수 있습니다.
 
-### 기초정보: 명단과 관·항·목을 정리합니다
+사이드바를 접고 펼치거나 뒤로·앞으로 이동할 수 있습니다. 즐겨찾기 중 창 너비에 들어가지 않는 항목은 **더보기**에서 기존 순서대로 찾을 수 있습니다.
 
-성도 명단, 헌금 종류, 지출 항목을 별도로 관리합니다. 지출 항목은 트리에서 선택하고 상세·연결 지출을 확인할 수 있습니다.
+![라피스 벨벳 어두운 테마](assets/v1.6.0/13-theme-lapisvelvet-dark.png)
 
-![지출 항목 트리](assets/v1.5.1/11-expense-types.png)
+## 사용법과 지원
 
-## 파일 세 가지를 구분하세요
+- [설치와 첫 장부](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/01-Getting-Started) · [장부·백업·복원](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/02-Books-and-Backup)
+- [헌금·지출 입력](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/03-Income-and-Expense) · [집계·보고서](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/04-Reports) · [기부금 영수증](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/05-Donation-Receipts)
+- [명단과 기초정보](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/06-Members-and-Categories) · [설정과 문제 해결](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/07-Settings-and-Troubleshooting)
+- [일반 수입·지출 반환·자금 현황](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/08-Church-Finance) · [테마 파일 작성](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/09-Theme-Files)
 
-| 확장자 | 용도 | 사용할 때 |
-|---|---|---|
-| **`.nabdb`** | 계속 사용하는 운영 장부 | 평소 입력·조회·수정 |
-| **`.nabbackup`** | 장부 전체 백업 | 장애 대비 보관 및 백업 시점으로 전체 복원 |
-| **`.nabx`** | 기간 자료 교환 | 지정 기간을 내보내 다른 장부에 누적 가져오기 |
-
-운영 장부는 명시적으로 저장한 입력을 반영합니다. `Ctrl+S`로 현재 편집을 반영하고 저장 완료 상태를 확인할 수 있습니다. **전체 복원은 대상 장부를 백업 시점으로 교체**합니다. `.nabx`는 운영 장부나 전체 백업의 대체물이 아니며, **같은 교환 파일을 다시 가져오면 거래가 다시 추가될 수 있습니다.**
-
-## 자주 쓰는 작업과 매뉴얼
-
-- [설치·첫 장부 만들기](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/01-Getting-Started)
-- [장부 전환·백업·복원·기간 교환](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/02-Books-and-Backup)
-- [헌금·지출 입력, 수정, 검색](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/03-Income-and-Expense)
-- [집계·주일 보고서·지출 보고서](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/04-Reports)
-- [영수증 발행·가족 합산·발행 이력](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/05-Donation-Receipts)
-- [명단·헌금 종류·지출 항목·기관 정보](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/06-Members-and-Categories)
-- [테마·암호·단축키·문제 해결](https://github.com/timothy97/NoljaAccountBook2_Release/wiki/07-Settings-and-Troubleshooting)
-
-## v1.5.2에서 달라진 점
-
-- 사이드바 접기 버튼 옆의 **뒤로·앞으로**로 최근 업무 화면을 오갈 수 있습니다. 지출 보고서와 근거 거래를 오갈 때는 기간과 항목을 복원합니다.
-- 헌금 새 입력에서 금액 칸으로 이동하면 전체 금액이 선택됩니다. **저장 후 계속**은 `Ctrl+Enter`로 실행할 수 있습니다.
-- 금액 입력 검증을 보강하고, Excel 내보내기 전에 기간을 선택할 수 있게 했습니다.
-- 마지막 완료된 백업 시각과 현재 장부 상태에 따라 자동 백업 시점을 조정했습니다.
-- 시작 화면의 글꼴 렌더링과 본문·사이드바 글자 크기를 정리했습니다.
-
-[v1.5.2 릴리스 변경 사항](https://github.com/timothy97/NoljaAccountBook2_Release/releases/tag/v1.5.2)
-
-## 다운로드 확인과 라이선스
-
-설치 파일의 SHA-256은 릴리스에 함께 제공하는 `SHA256SUMS.txt`와 비교할 수 있습니다.
-
-**등록 인원과 후원 여부에 관계없이 무료로 사용할 수 있습니다.** 자발적인 후원은 기능 개선과 유지보수에 사용됩니다.
-
-v1.5.1부터 인원 제한 없는 자체 소프트웨어 사용권을 적용합니다. 오픈소스 라이선스는 아닙니다. 전문은 [LICENSE](https://github.com/timothy97/NoljaAccountBook2_Release/blob/main/LICENSE)를 확인하세요. 프로그램의 **도움말 → 프로그램 정보**에서도 약관과 제3자 고지를 읽을 수 있습니다. 글꼴·라이브러리의 별도 조건은 설치 폴더의 `THIRD-PARTY-NOTICES.txt`와 `licenses` 폴더에 보존됩니다.
-
-![프로그램 정보와 소프트웨어 사용권](assets/v1.5.1/15-about.png)
-
-## v1.5.1의 주요 개선
-
-- 등록 인원에 관계없이 무료로 사용할 수 있도록 사용권과 설치 안내를 변경했습니다.
-- 도움말의 **사용자 매뉴얼 (웹)**에서 현재 매뉴얼을 바로 엽니다.
-- 왼쪽 메뉴를 접고 펼칠 수 있으며, 즐겨찾기를 체크로 추가·제거하고 드래그로 순서를 저장할 수 있습니다.
-- 장부별 색상, 세 테마의 청록색 강조, SVG 아이콘과 대화상자의 모서리·그림자를 정리했습니다.
-- 헌금 집계에 회계년도 선택을 추가하고 연락처·주민번호 숨김 표시와 지출 PDF 문구를 보완했습니다.
-- 제목표시줄 **개발 후원**에서 계좌복사와 모바일 송금 QR을 확인할 수 있습니다. 후원은 자율적입니다.
-
-![프로그램 정보와 자율 후원](assets/v1.5.1/15-about.png)
+프로그램의 **도움말 → 사용자 매뉴얼 (웹)**에서 최신 위키를 열 수 있습니다. **프로그램 정보**에서는 사용권과 제3자 고지를 확인할 수 있습니다. 개발 후원은 자율입니다.

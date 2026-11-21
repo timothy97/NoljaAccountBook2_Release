@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "id": "Slate",
+  "name": "슬레이트",
+  "light": {
+    "background": "#F1F1F1",
+    "surface": "#FFFFFF",
+    "text": "#202522",
+    "mutedText": "#566054",
+    "accent": "#79ED91",
+    "accentText": "#17251B",
+    "focus": "#346D3C",
+    "sidebar": "#E7E8E6",
+    "border": "#D4D7D2",
+    "selection": "#DCF5E0",
+    "accentHover": "#6BDF83",
+    "accentPressed": "#4DBE55"
+  },
+  "dark": {
+    "background": "#1D201D",
+    "surface": "#272B27",
+    "text": "#EFF3EE",
+    "mutedText": "#BEC5BC",
+    "accent": "#79ED91",
+    "accentText": "#17251B",
+    "focus": "#9AF4AC",
+    "sidebar": "#171A17",
+    "border": "#505A4E",
+    "selection": "#304533",
+    "accentHover": "#93F2A6",
+    "accentPressed": "#63CD77"
+  }
+}

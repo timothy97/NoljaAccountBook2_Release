@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "id": "Inked",
+  "name": "잉크드",
+  "light": {
+    "background": "#DFDEDC",
+    "surface": "#FFFFFF",
+    "text": "#000000",
+    "mutedText": "#464545",
+    "accent": "#00ACAC",
+    "accentText": "#000000",
+    "focus": "#005D5E",
+    "sidebar": "#D4D3D1",
+    "border": "#A6A7A2",
+    "selection": "#CEF2F0",
+    "accentHover": "#00BDBD",
+    "accentPressed": "#008F91"
+  },
+  "dark": {
+    "background": "#161616",
+    "surface": "#242424",
+    "text": "#F4F3F2",
+    "mutedText": "#C6C5C1",
+    "accent": "#00ACAC",
+    "accentText": "#000000",
+    "focus": "#63DED9",
+    "sidebar": "#101010",
+    "border": "#535350",
+    "selection": "#203C3C",
+    "accentHover": "#25BFBF",
+    "accentPressed": "#008F91"
+  }
+}

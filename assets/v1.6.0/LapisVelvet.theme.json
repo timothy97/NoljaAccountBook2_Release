@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "id": "LapisVelvet",
+  "name": "라피스 벨벳",
+  "light": {
+    "background": "#EEEBF3",
+    "surface": "#FDFCFF",
+    "text": "#081849",
+    "mutedText": "#514866",
+    "accent": "#213885",
+    "accentText": "#FFFFFF",
+    "focus": "#5F3475",
+    "sidebar": "#E1DDEB",
+    "border": "#CCCACC",
+    "selection": "#E6DAEF",
+    "accentHover": "#304897",
+    "accentPressed": "#192B68"
+  },
+  "dark": {
+    "background": "#121936",
+    "surface": "#1B2446",
+    "text": "#F1EFF9",
+    "mutedText": "#CCC6DD",
+    "accent": "#A5B4FF",
+    "accentText": "#101835",
+    "focus": "#D9B4EE",
+    "sidebar": "#081849",
+    "border": "#4C5578",
+    "selection": "#393055",
+    "accentHover": "#B9C5FF",
+    "accentPressed": "#93A4F0"
+  }
+}

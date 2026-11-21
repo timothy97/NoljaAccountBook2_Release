@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "id": "Fireside",
+  "name": "파이어사이드",
+  "light": {
+    "background": "#F5EEE4",
+    "surface": "#FFFCF8",
+    "text": "#322018",
+    "mutedText": "#694A38",
+    "accent": "#E76814",
+    "accentText": "#281409",
+    "focus": "#714236",
+    "sidebar": "#EDE2D1",
+    "border": "#D7C1AD",
+    "selection": "#F4DDC8",
+    "accentHover": "#F28130",
+    "accentPressed": "#D86218"
+  },
+  "dark": {
+    "background": "#231916",
+    "surface": "#30221D",
+    "text": "#F9EFE5",
+    "mutedText": "#D8C3B6",
+    "accent": "#DC8236",
+    "accentText": "#281409",
+    "focus": "#FFC194",
+    "sidebar": "#1D1411",
+    "border": "#6A4A3E",
+    "selection": "#55382C",
+    "accentHover": "#E99752",
+    "accentPressed": "#D17932"
+  }
+}
